@@ -32,7 +32,7 @@ public class addstudent extends HttpServlet {
             Connection con = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/db",
                     "root",
-                    "svist@123"
+                    "admin"
             );
 
             String sql = "INSERT INTO student(name, branch) VALUES (?, ?)";
